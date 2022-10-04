@@ -1,4 +1,4 @@
-g = input('Введите строку ')
+s= input('Введите строку ')
 import re
 new_spisok = re.split(";|,| ", g)
 m = 0
